@@ -10,7 +10,7 @@
 ---
 
 > **📌 Descripción del proyecto**  
-> El presente trabajo analiza el dataset de Kaggle **Teenager Mental Health Dataset** con el fin de evaluar la relación entre hábitos digitales, estilo de vida y nivel de estrés en población adolescente. La propuesta integra limpieza de datos, análisis exploratorio y modelado predictivo bajo un enfoque metodológico reproducible.
+> El presente trabajo analiza el dataset de Kaggle **Social Media Impact on Teen Mental Health** con el fin de evaluar la relación entre hábitos digitales, estilo de vida y nivel de estrés en población adolescente. La propuesta integra limpieza de datos, análisis exploratorio y modelado predictivo bajo un enfoque metodológico reproducible.
 
 ### 🎯 Enfoque de la solución
 - **Definición del problema**: estimar `stress_level` a partir de variables de conducta digital y hábitos cotidianos.
@@ -20,9 +20,24 @@
 
 ---
 
+## Descripción del propósito del dataset
+
+El dataset **Social Media Impact on Teen Mental Health** fue diseñado para estudiar el efecto del uso de redes sociales sobre la salud mental adolescente. Contiene variables de comportamiento diario (horas en redes, plataforma usada, sueño, pantalla antes de dormir, actividad física, interacción social y rendimiento académico) junto con indicadores de salud mental (`stress_level`, `anxiety_level`, `addiction_level` y `depression_label`).
+
+**Enlace oficial del dataset:**  
+https://www.kaggle.com/datasets/algozee/teenager-menthal-healy
+
+Utilidad del dataset en este trabajo:
+- describir patrones de conducta digital y bienestar en adolescentes;
+- analizar asociaciones entre hábitos cotidianos y niveles de estrés, ansiedad y depresión;
+- construir modelos de clasificación para estimar riesgo de afectación en salud mental;
+- aportar evidencia para análisis académico y para enfoques de detección temprana basados en datos.
+
+---
+
 ## 🧩 Repositorio del proyecto
 
-Este repositorio concentra el desarrollo integral del trabajo:
+Este repositorio concentra el desarrollo del trabajo:
 - datos en estado original y procesado,
 - cuadernos ejecutables por fase metodológica (`01`, `02`, `03`),
 - módulos Python reutilizables en `src/`,
