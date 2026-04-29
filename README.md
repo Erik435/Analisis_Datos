@@ -39,7 +39,7 @@ Utilidad del dataset en este trabajo:
 
 Este repositorio concentra el desarrollo del trabajo:
 - datos en estado original y procesado,
-- cuadernos ejecutables por fase metodológica (`01`, `02`, `03`),
+- notebooks ejecutables por fase metodológica (`01`, `02`, `03`),
 - módulos Python reutilizables en `src/`,
 - documentación técnica para evaluación académica.
 
